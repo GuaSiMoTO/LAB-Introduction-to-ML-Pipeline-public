@@ -8,6 +8,26 @@
 
 In this project, we will walk through a complete Machine Learning workflow using the Boston Housing dataset. We will cover data collection, preprocessing, feature engineering, model training, evaluation, and deployment. The goal is to build a linear regression model to predict the median value of owner-occupied homes (MEDV) in Boston suburbs. We will also create a FastAPI application to serve our model and make predictions based on input features.
 
+## Setup Instructions
+
+To run the notebook and reproduce the results, follow these steps:
+
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/codeskills-ai/LAB-Introduction-to-ML-Pipeline.git
+    cd LAB-Introduction-to-ML-Pipeline
+    ```
+
+2. **Create a virtual environment and onstall the required packages**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. **Start Jupyter Notebook**:
+    ```bash
+    jupyter notebook
+    ```
+
 ## Steps in the Workflow
 
 ### Step 1: Importing Libraries
