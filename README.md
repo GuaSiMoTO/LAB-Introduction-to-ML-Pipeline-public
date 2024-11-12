@@ -69,6 +69,8 @@ Create a FastAPI application to serve the model and make predictions based on in
 ### Step 11: Test the API
 Test the API within the Jupyter notebook using the `requests` library by sending different sets of input features and observing the model's responses. This approach allows you to test the importance and influence of each feature on the predicted house prices, helping to understand how different input variables affect the model's output.
 
+to start the api : ```uvicorn nombre_del_archivo:app ```
+
 ### Additional Steps
 - You are free to experiment with different techniques and approaches throughout this project.
 - Experiment with the input values and try to explore which are the most relevant features for the model.
